@@ -9,4 +9,4 @@ async def read_root() -> dict:
         "message": "Welcome to my notes application, use the /docs route to proceed"
     }
 
-app.include_router(NoteRouter, prefix="/note")
+app.include_router(NoteRouter, prefix="/word-forms")
